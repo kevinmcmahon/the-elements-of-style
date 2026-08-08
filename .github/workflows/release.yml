@@ -1,0 +1,25 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package skill
+        run: ./scripts/package-skill.sh
+      - name: Create release
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            dist/writing-clearly-and-concisely.zip \
+            --title "$GITHUB_REF_NAME" \
+            --generate-notes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
