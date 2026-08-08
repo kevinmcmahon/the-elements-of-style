@@ -49,13 +49,11 @@ Once installed, Claude will automatically use the `writing-clearly-and-concisely
 - Suggests dispatching a subagent for copyediting when context is limited
 - Only loads the full reference when actively writing or editing prose
 
-## Source
+## Attribution
 
-This text is in the public domain. The original 1918 edition by William Strunk Jr. was obtained from Project Gutenberg and converted to clean markdown format.
+The text is *The Elements of Style* by William Strunk Jr., first published in 1918 and now in the public domain. It was obtained from [Project Gutenberg #37134](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm) and converted to clean markdown format.
 
-Forked from [obra/elements-of-style](https://github.com/obra/elements-of-style) by Jesse Vincent.
+This repository is a fork of [obra/elements-of-style](https://github.com/obra/elements-of-style) by [Jesse Vincent](https://github.com/obra), who created the original Claude Code plugin, the skill, and the markdown conversion. This fork adds packaging for Claude Desktop, Cowork, and claude.ai.
 
-- **Original Source**: [Project Gutenberg #37134](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm)
-- **Author**: William Strunk Jr.
-- **Publication**: 1918
-- **License**: Public Domain
+- **Text**: William Strunk Jr., *The Elements of Style* (1918), public domain
+- **Original plugin and skill**: Jesse Vincent, [obra/elements-of-style](https://github.com/obra/elements-of-style)

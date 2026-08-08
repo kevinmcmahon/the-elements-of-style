@@ -60,3 +60,7 @@ Alphabetical reference for usage questions
 ## Bottom Line
 
 Writing for humans? Read `elements-of-style.md` and apply the rules. Low on tokens? Dispatch a subagent to copyedit with the guide.
+
+## Attribution
+
+Text: William Strunk Jr., *The Elements of Style* (1918), public domain, via [Project Gutenberg #37134](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm). Original skill by Jesse Vincent ([obra/elements-of-style](https://github.com/obra/elements-of-style)).
