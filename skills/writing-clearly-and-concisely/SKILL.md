@@ -9,7 +9,9 @@ description: Apply Strunk's timeless writing rules to ANY prose humans will read
 
 William Strunk Jr.'s *The Elements of Style* (1918) teaches you to write clearly and cut ruthlessly.
 
-**WARNING:** `elements-of-style.md` consumes ~12,000 tokens. Read it only when writing or editing prose.
+The full text lives in `elements-of-style.md`, located in **this skill's own directory — the same directory as this SKILL.md file** (not the project's working directory). To read it, resolve the path against the directory this skill was loaded from. In Claude Code plugin installs that is `<plugin-root>/skills/writing-clearly-and-concisely/elements-of-style.md`; if a bare relative read fails, search for the file by name under the skill/plugin directory rather than skipping it.
+
+**WARNING:** `elements-of-style.md` consumes ~12,000 tokens. Read it only when writing or editing prose — but when you are writing or editing prose, actually read it. Do not substitute the rule list below for the full text; the list is an index, not the guidance.
 
 ## When to Use This Skill
 
