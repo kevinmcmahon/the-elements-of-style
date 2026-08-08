@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Writing guidance based on William Strunk Jr.'s The Elements of Style (1918)",
   "author": {
-    "name": "Jesse Vincent",
-    "url": "https://github.com/obra"
+    "name": "Kevin McMahon",
+    "url": "https://github.com/kevinmcmahon"
   },
-  "homepage": "https://github.com/obra/elements-of-style",
-  "repository": "https://github.com/obra/elements-of-style",
+  "homepage": "https://github.com/kevinmcmahon/the-elements-of-style",
+  "repository": "https://github.com/kevinmcmahon/the-elements-of-style",
   "license": "Public Domain",
   "keywords": ["writing", "style", "grammar", "composition", "clarity"]
 }
